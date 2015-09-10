@@ -50,10 +50,10 @@ script:
 
 deploy:
   provider: heroku
-  api_key: "1e256782-e6ca-475f-9a17-9b7efc5943a1"
+  api_key: "4010e8c7-dfeb-4635-82b8-13f47202969b"
   skip_cleanup: true
   strategy: api
   buildpack: https://github.com/ddollar/heroku-buildpack-multi
-  app: intense-forest-7815
+  app: sleepy-caverns-6589
   on:
     php: 5.5
